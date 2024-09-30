@@ -1,0 +1,72 @@
+{
+	"abi": [
+		{
+			"type": "function",
+			"name": "h",
+			"inputs": [],
+			"outputs": [
+				{ "name": "", "type": "uint256", "internalType": "uint256" }
+			],
+			"stateMutability": "pure"
+		}
+	],
+	"bytecode": {
+		"object": "0x6080604052348015600f57600080fd5b506101218061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063b8c9d36514602d575b600080fd5b60336045565b60405190815260200160405180910390f35b6040805160208101825260008082529151633b050da560e01b815281516001600160a01b0316600482015273__$dfdfbae8b003a9c19ed4afe57ff51f2aac$__90633b050da590602401602060405180830381865af415801560ab573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019060cd919060d3565b91505090565b60006020828403121560e457600080fd5b505191905056fea2646970667358221220200313713e539350813a183d4d7827387563346eba9f2ad532e60528889a56ae64736f6c63430008190033",
+		"sourceMap": "236:96:0:-:0;;;;;;;;;;;;;;;;;;;",
+		"linkReferences": {
+			"src/Test.sol": { "L": [{ "start": 145, "length": 20 }] }
+		}
+	},
+	"deployedBytecode": {
+		"object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063b8c9d36514602d575b600080fd5b60336045565b60405190815260200160405180910390f35b6040805160208101825260008082529151633b050da560e01b815281516001600160a01b0316600482015273__$dfdfbae8b003a9c19ed4afe57ff51f2aac$__90633b050da590602401602060405180830381865af415801560ab573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019060cd919060d3565b91505090565b60006020828403121560e457600080fd5b505191905056fea2646970667358221220200313713e539350813a183d4d7827387563346eba9f2ad532e60528889a56ae64736f6c63430008190033",
+		"sourceMap": "236:96:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;250:80;;;:::i;:::-;;;160:25:1;;;148:2;133:18;250:80:0;;;;;;;;-1:-1:-1;;;;;;;;;;;;320:6:0;;-1:-1:-1;;;320:6:0;;406:13:1;;-1:-1:-1;;;;;402:39:1;320:6:0;;;384:58:1;320:1:0;;:3;;357:18:1;;320:6:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;313:13;;;250:80;:::o;453:184:1:-;523:6;576:2;564:9;555:7;551:23;547:32;544:52;;;592:1;589;582:12;544:52;-1:-1:-1;615:16:1;;453:184;-1:-1:-1;453:184:1:o",
+		"linkReferences": {
+			"src/Test.sol": { "L": [{ "start": 114, "length": 20 }] }
+		}
+	},
+	"methodIdentifiers": { "h()": "b8c9d365" },
+	"rawMetadata": "{\"compiler\":{\"version\":\"0.8.25+commit.b61c2a91\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"h\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Test.sol\":\"C\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"src/Test.sol\":{\"keccak256\":\"0xc2ad73d0b1e91bfe6ff9ba2480fdfdce65e31a1e1a8a856c4b0a233b4f00d5fd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b86d268f160cd80fda8036d6823948f083c0114b3d3263e4dcb8954b4ecc86d5\",\"dweb:/ipfs/QmR49ktMBmbvDtKtm3wkBWP9m3zbHWVjTsbdFNR7Vy5eTg\"]}},\"version\":1}",
+	"metadata": {
+		"compiler": { "version": "0.8.25+commit.b61c2a91" },
+		"language": "Solidity",
+		"output": {
+			"abi": [
+				{
+					"inputs": [],
+					"stateMutability": "pure",
+					"type": "function",
+					"name": "h",
+					"outputs": [
+						{
+							"internalType": "uint256",
+							"name": "",
+							"type": "uint256"
+						}
+					]
+				}
+			],
+			"devdoc": { "kind": "dev", "methods": {}, "version": 1 },
+			"userdoc": { "kind": "user", "methods": {}, "version": 1 }
+		},
+		"settings": {
+			"remappings": [],
+			"optimizer": { "enabled": true, "runs": 200 },
+			"metadata": { "bytecodeHash": "ipfs" },
+			"compilationTarget": { "src/Test.sol": "C" },
+			"evmVersion": "paris",
+			"libraries": {}
+		},
+		"sources": {
+			"src/Test.sol": {
+				"keccak256": "0xc2ad73d0b1e91bfe6ff9ba2480fdfdce65e31a1e1a8a856c4b0a233b4f00d5fd",
+				"urls": [
+					"bzz-raw://b86d268f160cd80fda8036d6823948f083c0114b3d3263e4dcb8954b4ecc86d5",
+					"dweb:/ipfs/QmR49ktMBmbvDtKtm3wkBWP9m3zbHWVjTsbdFNR7Vy5eTg"
+				],
+				"license": "MIT"
+			}
+		},
+		"version": 1
+	},
+	"id": 0
+}

@@ -1,0 +1,94 @@
+{
+	"abi": [
+		{
+			"type": "function",
+			"name": "g",
+			"inputs": [
+				{
+					"name": "s",
+					"type": "tuple",
+					"internalType": "struct S",
+					"components": [
+						{
+							"name": "i",
+							"type": "I",
+							"internalType": "contract I"
+						}
+					]
+				}
+			],
+			"outputs": [
+				{ "name": "", "type": "uint256", "internalType": "uint256" }
+			],
+			"stateMutability": "pure"
+		}
+	],
+	"bytecode": {
+		"object": "0x610182610039600b82828239805160001a607314602c57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600436106100355760003560e01c80633b050da51461003a575b600080fd5b61004d6100483660046100cd565b61005f565b60405190815260200160405180910390f35b600081600001516001600160a01b03166326121ff06040518163ffffffff1660e01b8152600401602060405180830381865afa1580156100a3573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100c79190610133565b92915050565b6000602082840312156100df57600080fd5b6040516020810181811067ffffffffffffffff8211171561011057634e487b7160e01b600052604160045260246000fd5b60405282356001600160a01b038116811461012a57600080fd5b81529392505050565b60006020828403121561014557600080fd5b505191905056fea264697066735822122002f28340679dc9c2e022068accdbb19b131e096873c43173dc3c7cc2eb2fd63064736f6c63430008190033",
+		"sourceMap": "142:92:0:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;142:92:0;;;;;;;;;;;;;;;;;",
+		"linkReferences": {}
+	},
+	"deployedBytecode": {
+		"object": "0x73000000000000000000000000000000000000000030146080604052600436106100355760003560e01c80633b050da51461003a575b600080fd5b61004d6100483660046100cd565b61005f565b60405190815260200160405180910390f35b600081600001516001600160a01b03166326121ff06040518163ffffffff1660e01b8152600401602060405180830381865afa1580156100a3573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100c79190610133565b92915050565b6000602082840312156100df57600080fd5b6040516020810181811067ffffffffffffffff8211171561011057634e487b7160e01b600052604160045260246000fd5b60405282356001600160a01b038116811461012a57600080fd5b81529392505050565b60006020828403121561014557600080fd5b505191905056fea264697066735822122002f28340679dc9c2e022068accdbb19b131e096873c43173dc3c7cc2eb2fd63064736f6c63430008190033",
+		"sourceMap": "142:92:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;155:77;;;;;;:::i;:::-;;:::i;:::-;;;806:25:1;;;794:2;779:18;155:77:0;;;;;;;;201:7;221:1;:3;;;-1:-1:-1;;;;;221:5:0;;:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;214:14;155:77;-1:-1:-1;;155:77:0:o;14:633:1:-;90:6;143:2;131:9;122:7;118:23;114:32;111:52;;;159:1;156;149:12;111:52;192:2;186:9;234:2;226:6;222:15;303:6;291:10;288:22;267:18;255:10;252:34;249:62;246:185;;;353:10;348:3;344:20;341:1;334:31;388:4;385:1;378:15;416:4;413:1;406:15;246:185;447:2;440:22;484:23;;-1:-1:-1;;;;;536:31:1;;526:42;;516:70;;582:1;579;572:12;516:70;595:21;;602:6;14:633;-1:-1:-1;;;14:633:1:o;842:184::-;912:6;965:2;953:9;944:7;940:23;936:32;933:52;;;981:1;978;971:12;933:52;-1:-1:-1;1004:16:1;;842:184;-1:-1:-1;842:184:1:o",
+		"linkReferences": {}
+	},
+	"methodIdentifiers": { "g(S)": "3b050da5" },
+	"rawMetadata": "{\"compiler\":{\"version\":\"0.8.25+commit.b61c2a91\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"components\":[{\"internalType\":\"contract I\",\"name\":\"i\",\"type\":\"I\"}],\"internalType\":\"struct S\",\"name\":\"s\",\"type\":\"tuple\"}],\"name\":\"g\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Test.sol\":\"L\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"src/Test.sol\":{\"keccak256\":\"0xc2ad73d0b1e91bfe6ff9ba2480fdfdce65e31a1e1a8a856c4b0a233b4f00d5fd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b86d268f160cd80fda8036d6823948f083c0114b3d3263e4dcb8954b4ecc86d5\",\"dweb:/ipfs/QmR49ktMBmbvDtKtm3wkBWP9m3zbHWVjTsbdFNR7Vy5eTg\"]}},\"version\":1}",
+	"metadata": {
+		"compiler": { "version": "0.8.25+commit.b61c2a91" },
+		"language": "Solidity",
+		"output": {
+			"abi": [
+				{
+					"inputs": [
+						{
+							"internalType": "struct S",
+							"name": "s",
+							"type": "tuple",
+							"components": [
+								{
+									"internalType": "contract I",
+									"name": "i",
+									"type": "I"
+								}
+							]
+						}
+					],
+					"stateMutability": "pure",
+					"type": "function",
+					"name": "g",
+					"outputs": [
+						{
+							"internalType": "uint256",
+							"name": "",
+							"type": "uint256"
+						}
+					]
+				}
+			],
+			"devdoc": { "kind": "dev", "methods": {}, "version": 1 },
+			"userdoc": { "kind": "user", "methods": {}, "version": 1 }
+		},
+		"settings": {
+			"remappings": [],
+			"optimizer": { "enabled": true, "runs": 200 },
+			"metadata": { "bytecodeHash": "ipfs" },
+			"compilationTarget": { "src/Test.sol": "L" },
+			"evmVersion": "paris",
+			"libraries": {}
+		},
+		"sources": {
+			"src/Test.sol": {
+				"keccak256": "0xc2ad73d0b1e91bfe6ff9ba2480fdfdce65e31a1e1a8a856c4b0a233b4f00d5fd",
+				"urls": [
+					"bzz-raw://b86d268f160cd80fda8036d6823948f083c0114b3d3263e4dcb8954b4ecc86d5",
+					"dweb:/ipfs/QmR49ktMBmbvDtKtm3wkBWP9m3zbHWVjTsbdFNR7Vy5eTg"
+				],
+				"license": "MIT"
+			}
+		},
+		"version": 1
+	},
+	"id": 0
+}

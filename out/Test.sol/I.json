@@ -1,0 +1,64 @@
+{
+	"abi": [
+		{
+			"type": "function",
+			"name": "f",
+			"inputs": [],
+			"outputs": [
+				{ "name": "", "type": "uint256", "internalType": "uint256" }
+			],
+			"stateMutability": "pure"
+		}
+	],
+	"bytecode": { "object": "0x", "sourceMap": "", "linkReferences": {} },
+	"deployedBytecode": {
+		"object": "0x",
+		"sourceMap": "",
+		"linkReferences": {}
+	},
+	"methodIdentifiers": { "f()": "26121ff0" },
+	"rawMetadata": "{\"compiler\":{\"version\":\"0.8.25+commit.b61c2a91\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"f\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Test.sol\":\"I\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"src/Test.sol\":{\"keccak256\":\"0xc2ad73d0b1e91bfe6ff9ba2480fdfdce65e31a1e1a8a856c4b0a233b4f00d5fd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b86d268f160cd80fda8036d6823948f083c0114b3d3263e4dcb8954b4ecc86d5\",\"dweb:/ipfs/QmR49ktMBmbvDtKtm3wkBWP9m3zbHWVjTsbdFNR7Vy5eTg\"]}},\"version\":1}",
+	"metadata": {
+		"compiler": { "version": "0.8.25+commit.b61c2a91" },
+		"language": "Solidity",
+		"output": {
+			"abi": [
+				{
+					"inputs": [],
+					"stateMutability": "pure",
+					"type": "function",
+					"name": "f",
+					"outputs": [
+						{
+							"internalType": "uint256",
+							"name": "",
+							"type": "uint256"
+						}
+					]
+				}
+			],
+			"devdoc": { "kind": "dev", "methods": {}, "version": 1 },
+			"userdoc": { "kind": "user", "methods": {}, "version": 1 }
+		},
+		"settings": {
+			"remappings": [],
+			"optimizer": { "enabled": true, "runs": 200 },
+			"metadata": { "bytecodeHash": "ipfs" },
+			"compilationTarget": { "src/Test.sol": "I" },
+			"evmVersion": "paris",
+			"libraries": {}
+		},
+		"sources": {
+			"src/Test.sol": {
+				"keccak256": "0xc2ad73d0b1e91bfe6ff9ba2480fdfdce65e31a1e1a8a856c4b0a233b4f00d5fd",
+				"urls": [
+					"bzz-raw://b86d268f160cd80fda8036d6823948f083c0114b3d3263e4dcb8954b4ecc86d5",
+					"dweb:/ipfs/QmR49ktMBmbvDtKtm3wkBWP9m3zbHWVjTsbdFNR7Vy5eTg"
+				],
+				"license": "MIT"
+			}
+		},
+		"version": 1
+	},
+	"id": 0
+}
